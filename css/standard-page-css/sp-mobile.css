@@ -1,0 +1,197 @@
+/* 
+
+  ##Device = Mobile
+  ##Screen = max 600px
+
+*/
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Big Shoulders Display";
+  }
+  header {
+    background-color: #d5966c;
+    padding: 15px 0px;
+    text-align: center;
+  }
+  header > a {
+    font-family: "Big Shoulders Display";
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+  }
+  .submenu {
+    display: none;
+  }
+  /* FlexBox */
+
+  .content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .c1-img > img {
+    object-fit: cover;
+    width: 500px;
+    height: 371px;
+  }
+
+  .c-font1 {
+    color: #151515;
+    font-size: 56px;
+    text-transform: uppercase;
+    letter-spacing: 3x;
+    margin-left: 15px;
+    font-weight: 900;
+    margin-top: 35px;
+  }
+  .c-font2 {
+    font-family: "Outfit", sans-serif;
+    color: #151515;
+    font-size: 18px;
+    width: 50%;
+    margin-left: 15px;
+    margin-top: 35px;
+    font-weight: 200;
+  }
+
+  .c-button {
+    margin: 50px 0px 0px 15px;
+  }
+
+  .c-button > a {
+    text-decoration: none;
+    color: white;
+    background-color: #151515;
+    padding: 18px 0px 15px 20px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 500;
+  }
+  .c-button > a:after {
+    color: white;
+    background-color: #d5966c;
+    content: " 〉";
+    padding: 18px 9px 15px 15px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 400;
+  }
+  .c-button > a:hover {
+    background-color: #d5966c;
+    color: #151515;
+  }
+  .c-button > a:hover:after {
+    background-color: #151515;
+    color: #d5966c;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    padding: 10px;
+    gap: 15px;
+    margin-bottom: 150px;
+  }
+
+  .item01 {
+    order: 2;
+  }
+
+  .item02 {
+    order: 1;
+  }
+
+  .item03 {
+    order: 3;
+  }
+
+  .item04 {
+    order: 4;
+  }
+
+  .item05 {
+    order: 5;
+  }
+
+  .item01 > h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    width: 50%;
+    font-weight: 800;
+    margin-left: 5px;
+  }
+
+  .item01 > p {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    width: 70%;
+    font-weight: 200;
+  }
+
+  .item02 > img {
+    object-fit: cover;
+    width: 480px;
+    height: 480px;
+  }
+
+  .item03 > img {
+    height: auto;
+    width: 100%;
+  }
+
+  .item04 > img {
+    object-fit: cover;
+    width: 480px;
+    height: 280px;
+  }
+
+  .item05 {
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 30px;
+  }
+
+  .item05 > h1 {
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    width: 50%;
+  }
+
+  .item05 > p {
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    color: white;
+  }
+
+  footer {
+    font-family: "Outfit", sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #151515;
+    color: white;
+    padding: 80px 35px;
+  }
+
+  .f-text {
+    margin: 35px 0px;
+  }
+}

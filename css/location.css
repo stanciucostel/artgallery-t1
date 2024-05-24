@@ -1,0 +1,65 @@
+.c-button-location {
+  position: absolute;
+  top: 23%;
+  left: 0;
+  z-index: 999;
+}
+.c-button-location > a {
+  text-decoration: none;
+  color: white;
+  background-color: #151515;
+  padding: 18px 18px 15px 0px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+.c-button-location > a:before {
+  color: white;
+  background-color: #d5966c;
+  content: " 〈  ";
+  padding: 18px 11px 15px 8px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+.c-button-location > a:hover {
+  background-color: #d5966c;
+  color: #151515;
+}
+.c-button-location > a:hover:before {
+  background-color: #151515;
+  color: #d5966c;
+}
+
+.c-button-location-2 {
+  position: absolute;
+  top: 68%;
+  right: 0;
+  z-index: 999;
+}
+.c-button-location-2 > a {
+  text-decoration: none;
+  color: white;
+  background-color: #151515;
+  padding: 18px 0px 15px 18px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+.c-button-location-2 > a:after {
+  color: white;
+  background-color: #d5966c;
+  content: "  〉 ";
+  padding: 18px 5px 15px 15px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+.c-button-location-2 > a:hover {
+  background-color: #d5966c;
+  color: #151515;
+}
+.c-button-location-2 > a:hover:after {
+  background-color: #151515;
+  color: #d5966c;
+}
