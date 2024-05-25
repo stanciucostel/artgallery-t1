@@ -346,38 +346,7 @@
       transform: scale(1, 0);
     }
   }
-  .ticker-wrap {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    height: 3rem;
-    background-color: rgb(221, 221, 221);
-    box-sizing: content-box;
-  }
-  .ticker-wrap .ticker {
-    display: inline-block;
-    height: 3rem;
-    line-height: 3rem;
-    white-space: nowrap;
-    padding-right: 100%;
-    box-sizing: content-box;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-name: ticker;
-    animation-name: ticker;
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-  }
-  .ticker-wrap .ticker__item {
-    display: inline-block;
-    padding: 0px 50px;
-    font-size: 22px;
-    color: #151515;
-  }
+
   @-webkit-keyframes ticker {
     0% {
       -webkit-transform: translate3d(0, 0, 0);
